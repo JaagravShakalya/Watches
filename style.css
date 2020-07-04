@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Monteserrat', serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+    height: 10vh;
+    box-shadow: black 0px 0px 4px;
+    position: sticky;
+    top: 0;
+    background-color: rgb(15, 15, 138);
+    color: white;
+    z-index: 1;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+li{
+    margin-right: 3vw;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+h3{
+    margin-left: 5vw;
+    font-size: 3.5vh;
+}
+
+header{
+    height: 100vh;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(
+        rgba(0,0,0,0.4),
+        rgba(0,0,0,0.4)
+    ), url(photo-1508057198894-247b23fe5ade.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+ header h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 7vh;
+ }
+
+section{
+    height: 300vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.scroll > div{
+    height: 100vh;
+    display: flex;
+    color: black;
+    justify-content: center;
+    width: 50vw;
+    color: white;
+}
+#scroll-1{
+    color: black;
+    display: flex;
+    flex-direction: row;
+    background: url(Watch1.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+#scroll-2{
+    color: black;
+    background: url(Watch2.jpg);
+    background-position: bottom;
+    background-size: 70vh;
+    background-repeat: no-repeat
+}
+#scroll-3{
+    color: black;
+    background: url(Watch3.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.sticky{
+    background: url(Stick.jpg);
+    background-size: cover;
+    background-position:center;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: black;
+}
+h2{
+    font-size: 5vh;
+    padding-top: 10vh;
+}
+footer{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+footer > h4{
+    font-size: 5vh;
+}
